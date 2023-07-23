@@ -14,6 +14,7 @@ words.forEach((element,index) => {
 data.forEach((el,index) => {
     // alert(index)
     $("#definition").append(`<div class="w_def" id="w_def${index}"></div>`)
+    $("#definition").append(`<div class="divider">-----------------<strong>${words[index].w}------------------</strong></div>`)
     el.forEach(element => {
         console.log(element)
         $("#w_def"+index).append(`<div class="def" id="${element.word}-def"><strong>${element.def}<span class="ar">${element.ar}</span></strong> <a class="b" href="#${element.word}-word">Back</a></div>`)
