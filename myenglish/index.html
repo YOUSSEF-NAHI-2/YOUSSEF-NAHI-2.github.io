@@ -7,77 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myenglish</title>
 
-    <style>
-        a:link {
-            color: black;
-            text-decoration: none;
-        }
-
-        table {
-            padding-left: 15px;
-            margin-bottom: 30px;
-        }
-
-        .def {
-            font-family: Arial,Helvetica,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-            padding-left: 15px;
-            margin-bottom: 5px;
-        }
-
-        .def-ex::before {
-            content: "•";
-            position: relative;
-            top: 0;
-            left: 0;
-        }
-
-        .def-ex {
-            padding-left: 15px;
-            margin-bottom: 5px;
-        }
-        .def-ex .ex{
-            font-family: Arial,Helvetica,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-            padding-left: 8px;
-            padding-right: 15px;
-            font-style: italic;
-            vertical-align: initial;
-        }
-        .b {
-            margin-left: 15px;
-            color: blue;
-            background-color: blanchedalmond;
-        }
-
-        .ar {
-            margin-left: 15px;
-            background-color: blanchedalmond;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- words -->
     <div>
-        <table style="width:100%">
-
-            <tr>
-                <td id=abroad-word><a href="#abroad-def"><strong>abroad</strong></a></td>
-            </tr>
-
-        </table>
+        <table style="width:100%" id="table"></table>
     </div>
-    
-   
+
+
     <!-- words definition -->
-    <div class="def" id="abroad-def">
-        <strong>in or to a different country <span class="ar">في الخارِج</span></strong> <a class="b" href="#abroad-word">Back</a>
-    </div>
-    <div class="def-ex"><span class="ex">Are you going <strong>abroad</strong> this summer?</span></div>
-    <div class="def-ex"><span class="ex">I would like to study <strong>abroad</strong> next year.</span></div>
-
-
+    <div id="definition"></div>
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="./data.js"></script>
+<script src="./script.js"></script>
 
 </html>
