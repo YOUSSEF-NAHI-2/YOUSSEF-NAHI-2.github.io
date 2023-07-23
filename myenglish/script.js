@@ -13,7 +13,7 @@ words.forEach((element,index) => {
 
 data.forEach((el,index) => {
     // alert(index)
-    $("#definition").append(`<div class="divider">-----------------<strong>${words[index].w}------------------</strong></div>`)
+    $("#definition").append(`<div class="divider">-----------------<strong>${words[index].w}</strong>------------------</div>`)
     $("#definition").append(`<div class="w_def" id="w_def${index}"></div>`)
     el.forEach(element => {
         console.log(element)
