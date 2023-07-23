@@ -1,0 +1,13 @@
+.container {
+    width: 90%; /* Set the width of the container */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent content from wrapping */
+    background-color: blanchedalmond;
+    padding: 50px;
+    
+  }
+
+  .content {
+    display: inline-block; /* Make content stay in one line */
+    width: 100%; /* Set the width of the content to exceed the container */
+  }
