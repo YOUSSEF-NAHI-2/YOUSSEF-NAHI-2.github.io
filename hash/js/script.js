@@ -19,4 +19,25 @@ function generate(){
       console.error('Error hashing password:', error);
     });
 }
-  
+
+// Sélectionner le texte à copier
+const texteACopier = document.getElementById('res');
+
+// Sélectionner le bouton
+const boutonCopier = document.getElementById('boutonCopier');
+
+// Ajouter un gestionnaire d'événement pour le clic sur le bouton
+boutonCopier.addEventListener('click', () => {
+  // 1. Si le <textarea> n'est pas vide
+  // console.log(texteACopier.textContent.length)
+  if (texteACopier.textContent.length) {
+      // 2. On copie le texte dans le presse-papier
+      navigator.clipboard.writeText(texteACopier.textContent).then(() => {
+          // 4. On affiche l'alert
+          // alert("Texte copié !")
+          boutonCopier.innerText = "Copied"
+      })
+  } else {
+      alert("you have to generate a code first")
+  }
+});
