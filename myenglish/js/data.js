@@ -1,6 +1,12 @@
 words = [
-    {w:'abroad',t:"adv",link:"https://dictionary.cambridge.org/dictionary/english-arabic/abroad"},
-    {w:'access',t:"n,v",link:"https://dictionary.cambridge.org/dictionary/english-arabic/access"},
+    {w:'abroad', t:"adv", link:"https://dictionary.cambridge.org/dictionary/english-arabic/abroad"},
+    {w:'access', t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/access"},
+    {w:"youth", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/youth"},
+    {w:"young", t:"adj,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/young"},
+    {w:"written", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/written"},
+    {w:"wound", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wound"},
+    {w:"worth", t:"adj,n" ,link:"https://dictionary.cambridge.org/dictionary/english-arabic/worth"},
+    {w:"worst", t:"adj,adv,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/worst"}
 ];
 
 // data = [
