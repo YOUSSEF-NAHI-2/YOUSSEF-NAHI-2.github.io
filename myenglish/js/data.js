@@ -1,12 +1,24 @@
 words = [
-    {w:'abroad', t:"adv", link:"https://dictionary.cambridge.org/dictionary/english-arabic/abroad"},
-    {w:'access', t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/access"},
     {w:"youth", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/youth"},
     {w:"young", t:"adj,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/young"},
     {w:"written", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/written"},
     {w:"wound", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wound"},
     {w:"worth", t:"adj,n" ,link:"https://dictionary.cambridge.org/dictionary/english-arabic/worth"},
-    {w:"worst", t:"adj,adv,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/worst"}
+    {w:"worst", t:"adj,adv,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/worst"},
+    {w:"worse", t:"adj,adv,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/worse"},
+    {w:"working", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/working"},
+    {w:"wool", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wool"},
+    {w:"wooden", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wooden"},
+    {w:"wonder", t:"v,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wonder"}
+
+    
+    {w:'abroad', t:"adv", link:"https://dictionary.cambridge.org/dictionary/english-arabic/abroad"},
+    {w:'access', t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/access"},
+    
+    {w:"make out", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/make-out"},
+    {w:"get on", t:"v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/get-on"},
+    {w:"let off", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/let-off"},
+    {w:"truncate", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/truncate"},
 ];
 
 // data = [
