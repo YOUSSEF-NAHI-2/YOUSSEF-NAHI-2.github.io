@@ -9,7 +9,7 @@ words = [
     {w:"working", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/working"},
     {w:"wool", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wool"},
     {w:"wooden", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wooden"},
-    {w:"wonder", t:"v,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wonder"}
+    {w:"wonder", t:"v,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wonder"},
 
     
     {w:'abroad', t:"adv", link:"https://dictionary.cambridge.org/dictionary/english-arabic/abroad"},
