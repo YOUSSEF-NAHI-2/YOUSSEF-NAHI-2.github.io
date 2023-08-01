@@ -10,6 +10,12 @@ words = [
     {w:"wool", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wool"},
     {w:"wooden", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wooden"},
     {w:"wonder", t:"v,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wonder"},
+    {w:"witness", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/witness"},
+    {w:"within", t:"prep", link:"https://dictionary.cambridge.org/dictionary/english-arabic/within"},
+    {w:"wire", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wire"},
+    {w:"wind", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/wind"},
+    {w:"win", t:"v,n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/win"},
+    {w:"willing", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/willing"}
 
     
     {w:'abroad', t:"adv", link:"https://dictionary.cambridge.org/dictionary/english-arabic/abroad"},
