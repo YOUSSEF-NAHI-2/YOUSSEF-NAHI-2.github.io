@@ -2,10 +2,10 @@ words.forEach((element,index) => {
     // alert(index)
     modulo = index%2;
     if (modulo==0) {
-        $("#table").append(`<tr id=${index}><td id=${element.w}-word><a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td></tr>`)
+        $("#table").append(`<tr id=${index}><td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td></tr>`)
     }
     else {
-        $("#"+(index-1)).append(`<td id=${element.w}-word><a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td>`)
+        $("#"+(index-1)).append(`<td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td>`)
     }
     
 });
