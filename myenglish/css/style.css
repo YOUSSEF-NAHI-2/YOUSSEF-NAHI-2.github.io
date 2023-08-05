@@ -1,3 +1,7 @@
+body {
+    background-color: #b1e1af;
+}
+
 a:link {
     color: black;
     text-decoration: none;
@@ -19,13 +23,10 @@ table tr:nth-child(even){
     background-color: #f2f2f2;
 }
   
-table tr:hover {
+/* table tr:hover {
     background-color: #ddd;
-}
+} */
 
-.divider {
-    margin-bottom: 10px;
-}
 
 .w_def{
     margin-bottom: 30px;
@@ -66,4 +67,11 @@ table tr:hover {
 .ar {
     margin-left: 15px;
     background-color: blanchedalmond;
+}
+
+.divider {
+    width: 100%;
+    height: 5px;
+    background-color: #b5aaa1; /* Change the color as desired */
+    margin: -9px 0px 20px 0px; /* Adjust the margin as needed to control spacing */
 }

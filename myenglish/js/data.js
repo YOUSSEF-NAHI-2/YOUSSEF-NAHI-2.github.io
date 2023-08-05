@@ -55,6 +55,16 @@ words = [
     {w:"get on", t:"v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/get-on"},
     {w:"let off", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/let-off"},
     {w:"truncate", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/truncate"},
+    {w:"Mitigate", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/mitigate?q=Mitigate"},
+    {w:"exposure ", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/exposure"},
+    {w:"circumvent", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/circumvent"},
+    {w:"jurisdictions", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/jurisdiction?q=jurisdictions"},
+    {w:"perpetrator", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/perpetrator"},
+    {w:"cognizant", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english/cognizant"},
+    {w:"compliant", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english/compliant"},
+    {w:"bold", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/bold"},
+    {w:"landscape", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/landscape"},
+    {w:"test", t:"test", link:"test"},
 ];
 
 // data = [

@@ -1,12 +1,26 @@
+var tableId = "table0";
 words.forEach((element,index) => {
     // alert(index)
-    modulo = index%2;
-    if (modulo==0) {
-        $("#table").append(`<tr id=${index}><td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td></tr>`)
-    }
-    else {
+    
+    if ( (index%10)==0 ) {
+        tableId = "table"+index;
+        $("#tables").append(`<table style="width:100%" id="table${index}"></table>`)
+        $("#tables").append(`<div class="divider"></div>`)
+
+        $("#"+tableId).append(`<tr id=${index}><td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td></tr>`)
         $("#"+(index-1)).append(`<td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td>`)
+
+    } else {
+
+        modulo = index%2;
+        if (modulo==0) {
+            $("#"+tableId).append(`<tr id=${index}><td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td></tr>`)
+        }
+        else {
+            $("#"+(index-1)).append(`<td id=${element.w}-word> <strong>${index+1}.</strong> <a href="${element.link}"><strong>${element.w}</strong><small>(${element.t})</small></a></td>`)
+        }
     }
+    
     
 });
 
