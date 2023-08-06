@@ -64,6 +64,10 @@ words = [
     {w:"compliant", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english/compliant"},
     {w:"bold", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/bold"},
     {w:"landscape", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/landscape"},
+    
+    {w:"exploit", t:"v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/exploit?q=Exploit"},
+
+    {w:"test", t:"test", link:"test"},
     {w:"test", t:"test", link:"test"},
 ];
 
