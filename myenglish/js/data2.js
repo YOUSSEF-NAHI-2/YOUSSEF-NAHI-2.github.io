@@ -88,6 +88,17 @@ words = [
     {w:"contravene", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/contravene"},
 
 
+    {w:"contribution", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/contribution"},
+    {w:"controllable", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english/controllable"},
+    {w:"controller", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/controller"},
+    {w:"converse", t:"adj,v", link:"https://dictionary.cambridge.org/dictionary/english/converse"},
+    {w:"convert", t:"v,n", link:"https://dictionary.cambridge.org/dictionary/english/convert"},
+    {w:"convoluted", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english/convoluted"},
+    {w:"coral", t:"n", link:"https://dictionary.cambridge.org/dictionary/english-arabic/coral"},
+    {w:"core", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english/core"},
+    {w:"coronation", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/coronation"},
+    {w:"correlation", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/correlation"},
+
     {w:"test", t:"test", link:"test"},
     {w:"test", t:"test", link:"test"},
     {w:"test", t:"test", link:"test"},
