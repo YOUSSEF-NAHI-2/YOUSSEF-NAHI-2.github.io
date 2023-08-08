@@ -99,6 +99,17 @@ words = [
     {w:"coronation", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/coronation"},
     {w:"correlation", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/correlation"},
 
+    {w:"corruption", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/corruption"},
+    {w:"cot", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english-arabic/cot"},
+    {w:"couch", t:"n,v", link:"https://dictionary.cambridge.org/dictionary/english/couch"},
+    {w:"counteract", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/counteract"},
+    {w:"counterpart", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/counterpart"},
+    {w:"countless", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english/countless"},
+    {w:"courageous", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/courageous"},
+    {w:"courteous", t:"adj", link:"https://dictionary.cambridge.org/dictionary/english-arabic/courteous"},
+    {w:"covet", t:"v", link:"https://dictionary.cambridge.org/dictionary/english/covet"},
+    {w:"cowboy", t:"n", link:"https://dictionary.cambridge.org/dictionary/english/cowboy"},
+
     {w:"test", t:"test", link:"test"},
     {w:"test", t:"test", link:"test"},
     {w:"test", t:"test", link:"test"},

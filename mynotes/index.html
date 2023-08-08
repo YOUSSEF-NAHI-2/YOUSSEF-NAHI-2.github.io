@@ -1,33 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My notes</title>
 </head>
+
 <body style="background-color: #dbdba3;">
 
     <div>
         <p> <strong>CANs : </strong> Campus area networks</p>
         <p> <strong>MDM : </strong> Mobile Device Management</p>
 
-        <p> <strong>What is hyperjacking? </strong> Hyperjacking occurs when an attacker hijacks a virtual machine (VM) hypervisor and then uses that VM to launch an attack on other data center devices.</p>
-        <p> <strong>Exploit : </strong> 	
-            The mechanism that is used to leverage a vulnerability to compromise an asset. Exploits may be remote or local. A remote exploit is one that works over the network without any prior access to the target system. The attacker does not need an account in the end system to exploit the vulnerability. In a local exploit, the threat actor has some type of user or administrative access to the end system. A local exploit does not necessarily mean that the attacker has physical access to the end system.
-        </p>
-    
-        <p> 
-            <strong>Attack surface : </strong> An attack surface is the total sum of the vulnerabilities in a given system that are accessible to an attacker. The attack surface describes different points where an attacker could get into a system, and where they could get data out of the system. For example, your operating system and web browser could both need security patches. They are each vulnerable to attacks and are exposed on the network or the internet. Together, they create an attack surface that the threat actor can exploit.
+        <p> <strong>What is hyperjacking? </strong> Hyperjacking occurs when an attacker hijacks a virtual machine (VM)
+            hypervisor and then uses that VM to launch an attack on other data center devices.</p>
+        <p> <strong>Exploit : </strong>
+            The mechanism that is used to leverage a vulnerability to compromise an asset. Exploits may be remote or
+            local. A remote exploit is one that works over the network without any prior access to the target system.
+            The attacker does not need an account in the end system to exploit the vulnerability. In a local exploit,
+            the threat actor has some type of user or administrative access to the end system. A local exploit does not
+            necessarily mean that the attacker has physical access to the end system.
         </p>
 
-        <p> <strong>Risk : </strong> The likelihood that a particular threat will exploit a particular vulnerability of an asset and result in an undesirable consequence.</p>
-    
-        <p> <strong>Countermeasure : </strong> The actions that are taken to protect assets by mitigating a threat or reducing risk.</p>
+        <p>
+            <strong>Attack surface : </strong> An attack surface is the total sum of the vulnerabilities in a given
+            system that are accessible to an attacker. The attack surface describes different points where an attacker
+            could get into a system, and where they could get data out of the system. For example, your operating system
+            and web browser could both need security patches. They are each vulnerable to attacks and are exposed on the
+            network or the internet. Together, they create an attack surface that the threat actor can exploit.
+        </p>
 
-        <p> <strong>CANs : </strong> Campus area networks</p>
+        <p> <strong>Risk : </strong> The likelihood that a particular threat will exploit a particular vulnerability of
+            an asset and result in an undesirable consequence.</p>
+
+        <p> <strong>Countermeasure : </strong> The actions that are taken to protect assets by mitigating a threat or
+            reducing risk.</p>
+
+        <ul>
+            <li><strong>the different types of threat actors.</strong></li>
+            <ol>
+                <li>
+                    <dl>
+                        <dt>Script kiddies</dt>
+                        <dd>Script kiddies emerged in the 1990s and refers to teenagers or inexperienced threat actors
+                            running existing scripts, tools, and exploits, to cause harm, but typically not for profit.
+                        </dd>
+
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Vulnerability brokers</dt>
+                        <dd>Vulnerability brokers typically refers to grey hat hackers who attempt to discover exploits
+                            and report them to vendors, sometimes for prizes or rewards.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Hacktivists </dt>
+                        <dd>Hacktivists is a term that refers to grey hat hackers who rally and protest against
+                            different political and social ideas. Hacktivists publicly protest against organizations or
+                            governments by posting articles, videos, leaking sensitive information, and performing
+                            distributed denial of service (DDoS) attacks.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Cybercriminals</dt>
+                        <dd>Cybercriminal is a term for black hat hackers who are either self-employed or working for
+                            large cybercrime organizations. Each year, cyber criminals are responsible for stealing
+                            billions of dollars from consumers and businesses.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>State-Sponsored</dt>
+                        <dd>State-Sponsored hackers are threat actors who steal government secrets, gather intelligence,
+                            and sabotage networks of foreign governments, terrorist groups, and corporations. Most
+                            countries in the world participate to some degree in state-sponsored hacking. Depending on a
+                            person’s perspective, these are either white hat or black hat hackers.</dd>
+                    </dl>
+                </li>
+            </ol>
+        </ul>
+
+        <p> <strong>IOC : </strong> indicators of compromise</p>
+        <p> <strong>IOA : </strong> Indicators of attack</p>
+
+
+
+        <ul>
+            <li><strong>Category of Attack</strong></li>
+            <ol>
+                <li>
+                    <dl>
+                        <dt>eavesdropping attack</dt>
+                        <dd>An eavesdropping attack is when a threat actor captures and listens to network traffic. This
+                            attack is also referred to as sniffing or snooping.</dd>
+
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>data modification attack</dt>
+                        <dd>Data modification attacks occur when a threat actor has captured enterprise traffic and has
+                            altered the data in the packets without the knowledge of the sender or receiver.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>IP address spoofing attack</dt>
+                        <dd>An IP address spoofing attack is when a threat actor constructs an IP packet that appears to
+                            originate from a valid address inside the corporate intranet.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>password-based attacks</dt>
+                        <dd>Password-based attacks occur when a threat actor obtains the credentials for a valid user
+                            account. Threat actors then use that account to obtain lists of other users and network
+                            information. They could also change server and network configurations, and modify, reroute,
+                            or delete data.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>denial-of-service (DoS) attack</dt>
+                        <dd>A DoS attack prevents normal use of a computer or network by valid users. After gaining
+                            access to a network, a DoS attack can crash applications or network services. A DoS attack
+                            can also flood a computer or the entire network with traffic until a shutdown occurs because
+                            of the overload. A DoS attack can also block traffic, which results in a loss of access to
+                            network resources by authorized users.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>man-in-the-middle attack (MiTM)</dt>
+                        <dd>A MiTM attack occurs when threat actors have positioned themselves between a source and
+                            destination. They can now actively monitor, capture, and control the communication
+                            transparently.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>compromised key attack</dt>
+                        <dd>A compromised-key attack occurs when a threat actor obtains a secret key. This is referred
+                            to as a compromised key. A compromised key can be used to gain access to a secured
+                            communication without the sender or receiver being aware of the attack.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>sniffer attack</dt>
+                        <dd>
+                            A sniffer is an application or device that can read, monitor, and capture network data
+                            exchanges and read network packets. If the packets are not encrypted, a sniffer provides a
+                            full view of the data inside the packet. Even encapsulated (tunneled) packets can be broken
+                            open and read unless they are encrypted and the threat actor does not have access to the
+                            key.</dd>
+                    </dl>
+                </li>
+
+            </ol>
+        </ul>
 
 
     </div>
-    
+
 </body>
+
 </html>
